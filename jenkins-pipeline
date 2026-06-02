@@ -1,0 +1,10 @@
+pipeline {
+    stages {
+        stage('pull') {
+            steps {
+             git branch: 'main', url: 'https://github.com/rinku012/ORS-Backend.git'
+                
+            }
+        }
+    }
+}
